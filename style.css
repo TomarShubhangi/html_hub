@@ -1,0 +1,41 @@
+#street{
+    text-align: center;
+    background-color: cyan;                     
+    border-color: black;
+    border-width: 5px;
+    border-style:dashed;
+}
+#phone{
+    background-color:peachpuff;
+    border:5px solid black;
+    margin: 50px;
+    letter-spacing: 5px;
+}
+#wallpaper{
+    background-color:yellowgreen;
+    border:5px dotted black;
+}
+#headertitle{
+    color:violet;
+}
+#title{
+    color:red;
+}
+#subtitle{
+    color:blue;
+}
+.redColor{
+    color:red;
+}
+h1{
+    font-family:"Tangerine";
+    font-size: 50px;
+    color: deeppink;
+}
+p{
+    font-family:"Tangerine";
+    font-size: 40px;
+    color:brown;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
