@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anybody";
+}
+nav{
+    height: 50px;
+    background-color:darkslategray;
+    color: cornsilk;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-inline: 200px;
+}
+
+#iphonebar{
+    width: 80%;
+    margin-inline: auto;
+    height: 50px;
+    padding-inline: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid black;
+    justify-content: space-between;
+}
+#iphonetext{
+    font-size: 40px;
+    font-weight: 800px;
+    color:black
+}
+#buy{
+    background-color: blue;
+    border:none;
+    height: 20px;
+    width: 50px;
+    color:aliceblue;
+    border-radius: 15px;
+}

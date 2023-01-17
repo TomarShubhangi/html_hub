@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Tangerine";
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+#one{
+    background-color:fuchsia;
+    transition: 1s;
+    box-shadow:10px 10px 0px 0px aqua;
+}
+#container1{
+    background-color:blueviolet;
+    height: 500px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#one:hover{
+    background-color: aqua;
+    width: 200;
+    height: 200;
+    box-shadow:5px 5px 0px 1px fuchsia;
+}
