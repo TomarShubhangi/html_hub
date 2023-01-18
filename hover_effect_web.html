@@ -1,0 +1,41 @@
+<HTML>
+    <HEAD>
+        <TITLE>DAY 4</TITLE>
+        <link href="style_hover.css" rel="stylesheet">
+    </HEAD>
+    <BODY>
+      <style>
+        .box{
+          width: 100px;
+          height: 100px;
+        }
+        #hover-rotate {
+          overflow: hidden;
+          margin: 8px;
+          height: 300px;
+          width:300px;
+        }
+        #hover-rotate img {
+          transition: all 0.5s;
+          box-sizing: border-box;
+          height: 200px;
+          width: 200px;
+        }
+        #hover-rotate:hover img {
+          transform: scale(1.3) rotate(180deg);
+        }
+        #container1{
+          background-color:blueviolet;
+          height: 400px;
+          display: flex;
+          justify-content:center;
+          align-items: center;
+        }
+      </style>
+      <div id="container1">
+        <div id="hover-rotate"class="box">
+          <img src="https://i.stack.imgur.com/BLkKe.jpg" width="100" height="100">
+        </div>
+      </div>
+    </BODY>
+</HTML>
