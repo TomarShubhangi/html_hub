@@ -1,0 +1,178 @@
+<HTML>
+    <HEAD>
+        <TITLE>iPhone</TITLE>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anybody&display=swap" rel="stylesheet">
+    </HEAD>
+    <BODY>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Anybody";
+            }
+            header{
+                width: 100vw;
+                height: 100vh;
+                background-image: url("https://www.apple.com/newsroom/images/product/iphone/geo/Apple-iPhone-14-iPhone-14-Plus-hero-220907-geo_Full-Bleed-Image.jpg.large.jpg");
+                background-size: cover; 
+                background-position: center;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                padding-top:4px;
+            } 
+            header h1{
+                font-size: 50px;
+                font-weight:600;
+            }
+            header p{
+                margin-top: 5px;
+                font-size: 25px;
+                font-weight:500;
+                margin-bottom: 20px;
+            }
+            header a{
+                color: #066cc0;
+                margin-top: 10px;
+                text-decoration: none;
+                font-size: 20px;
+                font-weight:500;
+                justify-content: space-around;
+            }
+            #sec{
+                height:100vh;
+                width:100vw;
+                margin-top: 10px;
+            }
+            #sec video{
+                height:100%;
+                width:100%;
+                object-fit: cover;
+            }
+            nav{
+                height: 50px;
+                background-color:black;
+                color:white;
+                display:flex;
+                align-items: center;
+                padding-inline: 100px;
+                cursor:pointer;
+                justify-content: space-around
+            }
+            #nav-wrapper{
+                width: 80%;
+                display:flex;
+                justify-content: space-evenly;
+            }
+            #logo-wrapper{
+                margin-top: 20px;
+                margin-right: 50px;
+            }
+            #links{
+                display:flex;
+                align-items:center;
+                flex-grow: 1;
+                justify-content: space-between;
+            }
+            #links a{
+                height:45px;
+                transition: 0.3s;
+                cursor: pointer;
+                text-decoration: none;
+                color:white;
+                justify-content: space-around 50px;
+                align-items:center;
+                margin-top: 25px;
+            }
+            #links a:hover{
+                color:white;
+            }
+            #icon-container{
+                display:flex;
+                align-items: center;
+                justify-content: space-around;
+                margin-bottom: 10px;
+                margin-left: 50px;
+            }
+            #vid-text{
+                position:absolute;
+                bottom: 100;
+                color:white;
+                width:100%;
+                align-items: center;
+            }
+            #vid-text h1{
+                font-size: 3rem;
+                font-weight: 600;
+            }
+            #vid-text p{
+                font-size: 1.5rem;
+                font-weight: 400;
+            }
+            #vid-text a{
+                text-decoration: none;
+                font-size: 1.3rem;
+            }
+            #vid-text a:hover{
+                text-decoration:underline;
+                font-size: 1.5rem;
+            }
+        </style>
+        <nav>
+            <div id="nav-wrapper">
+                <div id="logo-wrapper">
+                    <a href="https://www.apple.com/">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8y_1eInfW1vvpw3s1h3UXiaaKzEaU95v514xkKqmb9A&s" 
+                        height="25px" width="25px">
+                    </a>
+                </div>
+                <div id="links">
+                    <a href="https://www.apple.com/store">Store</a>
+                    <a href="https://www.apple.com/mac/">Mac</a>
+                    <a href="https://www.apple.com/ipad/">iPad</a>
+                    <a href="https://www.apple.com/iphone/">iPhone</a>
+                    <a href="https://www.apple.com/watch/">Watch</a>
+                    <a href="https://www.apple.com/airpods/">Airpods</a>
+                    <a href="https://www.apple.com/tv-home/">TV & Home</a>
+                    <a href="https://www.apple.com/services/">Only on Apple</a>
+                    <a href="https://www.apple.com/shop/accessories/all">Assesories</a>
+                    <a href="https://support.apple.com/">support</a>
+                </div>
+                <div id="icon-container">
+                    <img id="logo"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSco7G2xXyImclcy3nb2vfD55MvxdcP5UBbGEye4RowFA&s"
+                    height="25px" width="25px">
+                </div>
+                <div id="icon-container">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNAV1kGF2sku3gTguqv9TyFIza2qUM_b96LA&usqp=CAU" 
+                    height="25px" width="25px"> 
+                </div>
+            </div>
+        </nav>
+        <header>
+            <h1>iPhone 14</h1>
+            <p>Big and Bigger</p>
+            <div>
+                <a href="https://www.apple.com/in/iphone-14/specs/">Learn more ></a>
+                <a href="https://www.apple.com/in/shop/buy-iphone/iphone-14">Buy ></a>
+            </div>
+        </header>
+        <div id="sec">
+            <video height="500" width="500" autoplay>
+                <source src="https://www.apple.com/105/media/us/home/2022/85449b20-a1fc-4234-ab63-32e595b20f2a/anim/memoji-3/large_2x.mp4" type="video/mp4">
+            video not supported
+            </video>
+            <div id="vid-text">
+                <h1>Wow yourself</h1>
+                <p>Get the gift you've been eyeing all season</p>
+                <a href="https://www.apple.com/shop/gifts">Shop ></a>
+            </div>
+        </div>
+    </BODY>
+</HTML>
+
+
+
+
