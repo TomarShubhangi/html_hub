@@ -1,0 +1,58 @@
+<HTML>
+    <HEAD>
+        <TITLE>Day 4</TITLE>
+        <style>
+            #title{
+                background-color:aqua;
+            }
+            #card{
+                width:300px;
+                background-color:hotpink;
+                border:5px solid black;
+                border-radius: 10px;
+                color:blueviolet;
+                padding: 10px;
+            }
+            #card_heading{
+                font-size:2rem;
+                color:#FAD3E7;
+            }
+            #join{
+                background-color:rgb(252, 218, 242);
+                border:2px solid blue;
+                border-radius: 5px;
+                color:blue;
+                padding: 5px;
+                font-size: 1rem;
+                font-weight: 900;
+                transition: 0.4s;
+            }
+            #join:hover{
+                background-color:blue;
+                border:2px solid rgb(252, 218, 242);;
+                border-radius: 5px;
+                color:rgb(252, 218, 242);
+                padding: 5px;
+                font-size: 1rem;
+                font-weight: 900;
+            }
+        </style>
+    </HEAD>    
+    <BODY>
+        <H1 id="title" class="header">DOM</H1>
+        <div id="card">
+            <h2 id="card_heading">full stack</h2>
+            <p>it is a full stack program</p>
+            <button id="join">JOIN</button>
+        </div>
+        <script>
+            const h1title=document.getElementById("title");
+            h1title.textContent="Hello World";
+            h1title.style.color="#FF8B13";
+            h1title.style.backgroundColor="#ECECEC";
+            h1title.style.fontSize="50px";
+            h1title.style.padding="20px";
+            h1title.style.border="5px solid #CF4DCE";
+        </script>
+    </BODY>
+</HTML>

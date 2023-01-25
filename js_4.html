@@ -1,0 +1,76 @@
+<HTML>
+    <HEAD>
+        <TITLE>Day 4</TITLE>
+        <style>
+            #title{
+                background-color:aqua;
+            }
+            #card{
+                width:300px;
+                background-color:hotpink;
+                border:5px solid black;
+                border-radius: 10px;
+                color:blueviolet;
+                padding: 10px;
+            }
+            #card_heading{
+                font-size:2rem;
+                color:#FAD3E7;
+            }
+            #join{
+                background-color:rgb(252, 218, 242);
+                border:2px solid blue;
+                border-radius: 5px;
+                color:blue;
+                padding: 5px;
+                font-size: 1rem;
+                font-weight: 900;
+                transition: 0.4s;
+            }
+            #join:hover{
+                background-color:blue;
+                border:2px solid rgb(252, 218, 242);;
+                border-radius: 5px;
+                color:rgb(252, 218, 242);
+                padding: 5px;
+                font-size: 1rem;
+                font-weight: 900;
+            }
+        </style>
+    </HEAD>    
+    <BODY>
+        <div id="card_1">
+            <h2 class="heading">full stack</h2>
+            <p>It is a full stack program</p>
+            <button id="join">JOIN</button>
+        </div>
+        <div id="card_2">
+            <h2 class="heading">full stack</h2>
+            <p>It is a full stack program</p>
+            <button id="join">JOIN</button>
+        </div>
+        <script>
+            const headings=document.getElementsByClassName("heading");
+            console.log(headings[0]);
+            headings[0].textContent="Iam First";
+            headings[1].textContent="Iam Second";
+            const paras=document.getElementsByTagName("p");
+            console.log(paras);
+            for(let i=0;1<paras.length;i++){
+                paras[i].style.fontWeight="bold";
+                paras[i].style.fontSize="0.6em";
+            }
+        </script>
+    </BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+

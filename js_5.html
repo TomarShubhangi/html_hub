@@ -1,0 +1,90 @@
+<HTML>
+    <HEAD>
+        <TITLE>Day 4</TITLE>
+        <style>
+            #title{
+                background-color:aqua;
+            }
+            #card{
+                width:300px;
+                background-color:hotpink;
+                border:5px solid black;
+                border-radius: 10px;
+                color:blueviolet;
+                padding: 10px;
+            }
+            #card_heading{
+                font-size:2rem;
+                color:#FAD3E7;
+            }
+            button{
+                background-color:rgb(252, 218, 242);
+                border:2px solid blue;
+                border-radius: 5px;
+                color:blue;
+                padding: 5px;
+                font-size: 1rem;
+                font-weight: 900;
+                transition: 0.4s;
+            }
+            button:hover{
+                background-color:blue;
+                border:2px solid rgb(252, 218, 242);;
+                border-radius: 5px;
+                color:rgb(252, 218, 242);
+                padding: 5px;
+                font-size: 1rem;
+                font-weight: 900;
+            }
+            input{
+                padding:5px;
+                border:2px solid blue;
+                border-radius: 2px;
+            }
+        </style>
+    </HEAD>    
+    <BODY>
+        <input id="size"tye="num">
+        <div id="card_1">
+            <h2 class="heading">full stack</h2>
+            <p>It is a full stack program</p>
+        </div>
+        <div id="card_2">
+            <h2 class="heading">full stack</h2>
+            <p>It is a full stack program</p>
+        </div>
+        <button id="change">Change</button>
+        <script>
+            const paras=document.getElementsByTagName("p");
+            const changeButton=document.getElementById("change");
+            const sizeInput=document.getElementById("size");
+            function change(){
+                console.log(sizeInput.value);
+                for(let i=0;1<paras.length;i++){
+                paras[i].style.fontWeight="bold";
+                paras[i].style.fontSize=sizeInput.value +"px";
+                }
+            }
+            changeButton.addEventListener("click",change);
+        </script>
+    </BODY>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

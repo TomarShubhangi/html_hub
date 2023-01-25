@@ -1,0 +1,36 @@
+<HTML>
+    <HEAD>
+        <TITLE>Day 4</TITLE>
+        <style>
+            button{
+                background-color:rgb(252, 218, 242);
+                border:2px solid blue;
+                border-radius: 5px;
+                color:blue;
+                padding: 5px;
+                font-size: 1rem;
+                font-weight: 900;
+                transition: 0.4s;
+            }
+            button:hover{
+                background-color:yellowgreen;
+                border:2px solid rgb(252, 218, 242);
+                border-radius: 5px;
+                color:rgb(252, 218, 242);
+                padding: 5px;
+                font-size: 1rem;
+                font-weight: 900;
+            }
+
+        </style>
+    </HEAD>    
+    <BODY>
+        <button id="change">Change</button>
+        <script>
+            const button=document.getElementById("change");
+            // button.style.borderRadius="10%";
+            button.style=`border-radius:50% ; 
+            background-color:green;`;
+        </script>
+    </BODY>
+</HTML>
